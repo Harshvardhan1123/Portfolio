@@ -3,6 +3,7 @@ import {gsap} from 'gsap';
 import { ScrollTrigger} from "gsap/ScrollTrigger";
 import {useGSAP} from '@gsap/react';
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 const ShowcaseSection = () => {
@@ -45,12 +46,12 @@ const ShowcaseSection = () => {
                     {/*left*/}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde" />
+                            <img src="/images/project1.png" alt="TuneSphere" />
                         </div>
                         <div className="text-content">
-                            <h2>On-Demand Rides Made Simple with a powerful, user-friendly UI</h2>
+                            <h2>TuneSphere, An Ad-free music app , with full independent Database and  user-friendly UI</h2>
                             <p className="text-white-50 md:text-xl">
-                                A website build with react native, tailwindcss, and manymore.
+                                A website build with react native, tailwindcss, MySQL, Postman .
                             </p>
                         </div>
                     </div>
@@ -60,14 +61,20 @@ const ShowcaseSection = () => {
                             <div className="image-wrapper bg-[#ffefdb]">
                                 <img src="/images/project2.png" alt="Library Management platform" />
                             </div>
-                            <h2>Library Management Platform</h2>
+                            <h2> TravelTrove, A Travel Booking and place browsing website</h2>
                         </div>
 
                         <div className="project" ref = {project3Ref}>
                             <div className="image-wrapper bg-[#ffe7db]">
                                 <img src="/images/project3.png" alt="Yc directory" />
                             </div>
-                            <h2>YC Directory</h2>
+                            <h2>SunitaDresses , A salse website for Mrs.Sunita @Lucknow</h2>
+                            <button type="button">
+                                <div className="cta-button group">
+                                    <div className="bg-white-50" />
+                                    <a href ="https://sunita-dresses.vercel.app/">Visit</a>
+                                </div>
+                            </button>
                         </div>
                     </div>
                 </div>
